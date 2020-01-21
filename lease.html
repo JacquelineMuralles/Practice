@@ -10,107 +10,9 @@
 
 ">
         <label for="month-select">Received on</label>
-        <select name="month" id="month-select">
-            <option value="January">January</option>
-            <option value="February">February</option>
-            <option value="March">March</option>
-            <option value="April">April</option>
-            <option value="May">May</option>
-            <option value="June">June</option>
-            <option value="July">July</option>
-            <option value="August">August</option>
-            <option value="September">September</option>
-            <option value="October">October</option>
-            <option value="November">November</option>
-            <option value="December">December</option>
+        <input type="datetime-local" name="month-select" id="month-select">
 
-        </select>
 
-        <label for="day-select"></label>
-        <select name="day" id="day-select">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
-            <option value="15">15</option>
-            <option value="16">16</option>
-            <option value="17">17</option>
-            <option value="18">18</option>
-            <option value="19">19</option>
-            <option value="20">20</option>
-            <option value="21">21</option>
-            <option value="22">22</option>
-            <option value="23">23</option>
-            <option value="24">24</option>
-            <option value="25">25</option>
-            <option value="26">26</option>
-            <option value="27">27</option>
-            <option value="28">28</option>
-            <option value="29">29</option>
-            <option value="30">30</option>
-            <option value="31">31</option>
-        </select>
-        <label for="yr-select"></label>
-        <select name="year" id="yr-select">
-            <option value="2000">2000</option>
-            <option value="2001">2001</option>
-            <option value="2002">2002</option>
-            <option value="2003">2003</option>
-            <option value="2004">2004</option>
-            <option value="2005">2005</option>
-            <option value="2006">2006</option>
-            <option value="2007">2007</option>
-            <option value="2008">2008</option>
-            <option value="2009">2009</option>
-            <option value="2010">2010</option>
-            <option value="2011">2011</option>
-            <option value="2012">2012</option>
-            <option value="2013">2013</option>
-            <option value="2014">2014</option>
-            <option value="2015">2015</option>
-            <option value="2016">2016</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-            <option value="2020">2020</option>
-        </select>
-
-            <label for="hr-select">at</label>
-            <select name="hour" id="hr-select">
-                <option value="12">12 p.m.</option>
-                <option value="1">1 p.m.</option>
-                <option value="2">2 p.m.</option>
-                <option value="3">3 p.m.</option>
-                <option value="4">4 p.m.</option>
-                <option value="5">5 p.m.</option>
-                <option value="6">6 p.m.</option>
-                <option value="7">7 p.m.</option>
-                <option value="8">8 p.m.</option>
-                <option value="9">9 p.m.</option>
-                <option value="10">10 p.m.</option>
-                <option value="11">11 p.m.</option>
-                <option value="12">12 a.m.</option>
-                <option value="1">1 a.m.</option>
-                <option value="2">2 a.m.</option>
-                <option value="3">3 a.m.</option>
-                <option value="4">4 a.m.</option>
-                <option value="5">5 a.m.</option>
-                <option value="6">6 a.m.</option>
-                <option value="7">7 a.m.</option>
-                <option value="8">8 a.m.</option>
-                <option value="9">9 a.m.</option>
-                <option value="10">10 a.m.</option>
-                <option value="11">11 a.m.</option>
             </select>
 
 
@@ -130,6 +32,7 @@
         <form method="post" action="https://www.elformo.com/forms/b30ed8bd-3ae5-4d59-a33e-d8cf4a4b18b0
 
 ">
+
             <label for="Address">Property Address</label>
             <br>
             <textarea name="Address" id="Address" cols="150" rows="2" placeholder="Street, City, Sate, Zip Code"></textarea>
@@ -171,6 +74,7 @@
             <br>
 
             <section>
+
 
                 <h3>Applicant Information</h3>
 
@@ -297,6 +201,9 @@
                 <input type="text" name="citizen" id="citizen" placeholder="country">
 
             </section>
+
+
+
             <section>
                 <h3>Emergency Contact</h3>
 
@@ -313,6 +220,9 @@
                 <input type="email" name="e-email" id="e-email">
 
             </section>
+
+
+
             <section>
                 <h3>List all other persons who will occupy the property</h3>
 
@@ -347,7 +257,129 @@
                 <label for="a3">Age</label>
                 <input type="number" name="a3" id="a3">
 
+            </section>
 
+
+            <section>
+
+                <label for="current-address"><h3>Applicant's Current Address</h3></label>
+                <textarea name="current-address" id="current-address" cols="275" rows="1" placeholder="Street, Apt. No., City, State, Zip"></textarea>
+
+                <br>
+
+                <label for="landlord">Landlord's Name</label>
+                <input type="text" name="landlord" id="landlord">
+
+                <label for="l-email">Email</label>
+                <input type="email" name="l-email" id="l-email">
+
+                <label for="l-phone-d">Day Phone</label>
+                <input type="number" name="l-phone-d" id="l-phone-d">
+
+                <label for="l-phone-n">Night Phone</label>
+                <input type="number" name="l-phone-n" id="l-phone-n">
+
+                <label for="l-phone-m">Mobile Phone</label>
+                <input type="number" name="l-phone-m" id="l-phone-m">
+
+                <label for="fax">Fax Number</label>
+                <input type="number" name="fax" id="fax" >
+
+                <br>
+
+                <label for="c-move-in">Move In Date</label>
+                <input type="date" name="c-move-in" id="c-move-in">
+
+                <label for="c-move-out">Move Out Date</label>
+                <input type="date" name="c-move-out" id="c-move-out">
+
+                <label for="c-rent">Rent</label>
+                <input type="number" name="c-rent" id="c-rent">
+
+                <br>
+
+                <label for="reason">Reason For Move</label>
+                <textarea name="reason" id="reason" cols="150" rows="1"></textarea>
+
+            </section>
+
+
+            <section>
+
+                <label for="p-address"><h3>Applicant's Previous Address</h3></label>
+                <textarea name="p-address" id="p-address" cols="275" rows="1" placeholder="Street, Apt. No., City, State, Zip"></textarea>
+
+                <br>
+
+                <label for="p-landlord">Landlord's Name</label>
+                <input type="text" name="p-landlord" id="p-landlord">
+
+                <label for="p-l-email">Email</label>
+                <input type="email" name="p-l-email" id="p-l-email">
+
+                <label for="p-l-phone-d">Day Phone</label>
+                <input type="number" name="p-l-phone-d" id="p-l-phone-d">
+
+                <label for="p-l-phone-n">Night Phone</label>
+                <input type="number" name="p-l-phone-n" id="p-l-phone-n">
+
+                <label for="p-l-phone-m">Mobile Phone</label>
+                <input type="number" name="p-l-phone-m" id="p-l-phone-m">
+
+                <label for="old-fax">Fax Number</label>
+                <input type="number" name="old-fax" id="old-fax" >
+
+                <br>
+
+                <label for="p-move-in">Move In Date</label>
+                <input type="date" name="p-move-in" id="p-move-in">
+
+                <label for="p-move-out">Move Out Date</label>
+                <input type="date" name="p-move-out" id="p-move-out">
+
+                <label for="p-rent">Rent</label>
+                <input type="number" name="p-rent" id="p-rent">
+
+                <br>
+
+                <label for="p-reason">Reason For Move</label>
+                <textarea name="p-reason" id="p-reason" cols="150" rows="1"></textarea>
+
+            </section>
+
+
+            <section>
+
+                <label for="employer"><h3>Applicant's Current Employer</h3></label>
+                <textarea name="employer" id="employer" cols="150" rows="1"></textarea>
+
+                <br>
+
+                <label for="work-address">Address</label>
+                <textarea name="work-address" id="work-address" cols="275" rows="1" placeholder="Street, City, State, Zip"></textarea>
+
+                <label for="sup-name">Supervisor's Name</label>
+                <input type="text" name="sup-name" id="sup-name">
+
+                <label for="sup-phone">Phone</label>
+                <input type="number" name="sup-phone" id="sup-phone">
+
+                <label for="sup-fax">Fax</label>
+                <input type="number" name="sup-fax" id="sup-fax">
+
+                <label for="sup-email">Email</label>
+                <input type="email" name="sup-email" id="sup-email">
+
+                <label for="work-start">Start Date</label>
+                <input type="date" name="work-start" id="work-start">
+
+                <label for="income">Gross Monthly Income</label>
+                <input type="number" name="income" id="income">
+
+                <label for="position">Position</label>
+                <input type="text" name="position" id="position">
+
+                <br>
             </section>
 
 
