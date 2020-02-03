@@ -1,0 +1,298 @@
+
+h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
+}
+
+nav h1 {
+    font-family: 'Abel', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.white-nav {
+    background-color: white;
+    height: 100px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*added logo 2*/
+#logo, #logo2  {
+    height: 175px;
+}
+#circle1 {
+    background-color: #E6563B;
+}
+#circle2 {
+    background-color: #EB9D3A;
+}
+#circle3 {
+    background-color: #7CB06C;
+}
+#circle4 {
+    background-color: #00ABA9;
+}
+.s-circle1 {
+    background-color: #E6563B;
+}
+.s-circle2 {
+    background-color: #EB9D3A;
+}
+.s-circle3 {
+    background-color: #7CB06C;
+}
+.s-circle4 {
+    background-color: #00ABA9;
+}
+.circles {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 10px;
+    color: white;
+    height: 130px;
+    width: 130px;
+}
+.circle-row {
+    display: flex;
+    justify-content: center;
+}
+.s-circles{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-circles h2 {
+    /*adjusted font size*/
+    font-size: 12px;
+    margin: 0;
+}
+.work-text {
+    margin-top: 50px;
+    display: flex;
+    /*align-self: flex-end;*/
+    justify-content: center;
+}
+.apple {
+    padding: 0;
+    border: 15px solid #E6E6E6;
+    width: 100%;
+    height: auto;
+}
+h2 {
+    margin: 0;
+}
+#little-circle-row, .s-circle-row {
+    padding: 0;
+}
+
+/*extra small*/
+@media (max-width: 575.98px) {
+    .hide-small{
+        display: none;
+    }
+    .s-circle-row p {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .medium-start {
+        display: none;
+    }
+    .sm-nav {
+        display: none;
+    }
+    .med-lg-start {
+        display: none;
+    }
+}
+/*small screen*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        padding: 0;
+    }
+    .circles {
+        margin: 0;
+        padding: 0;
+        height: 100px;
+        width: 108px;
+        border: 7px white solid;
+    }
+    .circle-row {
+        display: flex;
+        justify-content: center;
+    }
+    .s-circle-row {
+        font-size: 8px;
+        display: flex;
+    }
+    .s-circles {
+        margin: 0 0 0 0px;
+        padding: 0;
+        font-size: 8px;
+    }
+    .s-circles h2 {
+        font-size: 8px;
+    }
+    #apple {
+        padding: 0;
+    }
+    #big-circle-row {
+        display: flex;
+        justify-content: center;
+    }
+    #little-circle-row {
+        padding: 0;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .s-circle-row p {
+        font-size: 25px;
+        padding: 0;
+    }
+    .featured {
+        font-size: 12px;
+    }
+    .medium-start {
+        display: none;
+    }
+
+    .xs-nav {
+        display: none;
+    }
+    .med-lg-start {
+        display: none;
+    }
+
+}
+/*medium screen*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .circles {
+        margin: 0;
+        padding: 0;
+    }
+    #apple {
+        padding: 0;
+    }
+    .featured {
+        font-size: 11.5px;
+        margin-top: 4px;
+    }
+    .apple {
+        border: 8px solid #E6E6E6;
+    }
+    .thumbnail{
+        padding: 0;
+        border: 2px solid #E6E6E6;
+        width: 50px;
+        height: 50px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    #second-little-h3, #second-little-picture{
+        margin-top: 40px;
+    }
+    i {
+        color: #2AA3F0;
+        font-size: 30px;
+    }
+    .last-tweet {
+        font-size: 18px;
+    }
+    .twitter-feed {
+        font-size: 13px;
+    }
+
+    md-nav {
+        display: none;
+    }
+    .small-hide {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .circles {
+        margin: 0;
+        padding: 0;
+    }
+    #apple {
+        padding: 0;
+    }
+    .featured {
+        font-size: 11.5px;
+        margin-top: 4px;
+    }
+    .apple {
+        border: 8px solid #E6E6E6;
+    }
+    .thumbnail{
+        padding: 0;
+        border: 2px solid #E6E6E6;
+        width: 50px;
+        height: 50px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 10%;
+    }
+
+    #second-little-h3, #second-little-picture{
+        margin-top: 40px;
+    }
+    i {
+        color: #2AA3F0;
+        font-size: 30px;
+    }
+    .last-tweet {
+        font-size: 18px;
+    }
+    .twitter-feed {
+        font-size: 13px;
+    }
+    .small-hide {
+        display: none;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url("../img/lightbulb.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+.jumbotron h1{
+    font-size: 50px;
+}
