@@ -135,3 +135,39 @@ function truthyFalsy (dataType) {
 // console.log(seconds(3, 3));
 // //720 300
 // console.log(seconds(2, 5));
+
+
+
+// In this challenge, you must verify the equality of two different given parameters: a and b.
+//
+//     Both the value and the type of parameters need to be tested in order to have an matching equality. The possible types of the given parameters are:
+//
+//     Numbers
+// Strings
+// Booleans (false or true)
+// Special values: undefined, null and NaN
+// What have you learnt so far that will permit you to do two different checks (value and type) with a single statement?
+//
+//     Implement a function that returns true if the parameters are equal, and false if they are different
+function equality(a,b) {
+    return a === b;
+}
+
+// Create a function that takes a NUMBER as an argument, increments the number by +1 and returns the result.
+function addOne(x) {
+    return x + 1;
+}
+
+// Create a function that takes height and width and finds the perimeter of a rectangle.
+function perimeter(h,w) {
+    return (h + w) * 2;
+}
+
+// Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+function sumLessThan(a,b) {
+    return (a + b) < 100;
+}
+// Write a function redundant that takes in a string str and returns a function that returns str.
+function redundant(str) {
+    return () => str
+}
