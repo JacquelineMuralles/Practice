@@ -44,3 +44,27 @@ function countEvens (array) {
     })
 }
 
+//write a function called stringLength that returns the length of a string, if the input is not a string, return false;
+function stringLength(input) {
+    if (typeof input === "string"){
+        return input.length;
+    }else {
+        return false;
+    }
+}
+
+
+// Create a function that takes a string and returns the word count. The string will be a sentence.
+
+function countWords(str){
+    return str.split(" ").length;
+}
+//TEST
+// countWords("Just an example here move along") ➞ 6
+//
+// countWords("This is a test") ➞ 4
+//
+// countWords("What an easy task, right") ➞ 5
+
+
+
