@@ -171,3 +171,53 @@ function sumLessThan(a,b) {
 function redundant(str) {
     return () => str
 }
+
+// Create a function that counts the number of syllables a word has. Each syllable is separated with a dash -.
+
+function numberSyllables(word) {
+    return word.split("-").length;
+}
+
+// Examples
+// numberSyllables("buf-fet") ➞ 2
+//
+// numberSyllables("beau-ti-ful") ➞ 3
+//
+// numberSyllables("mon-u-men-tal") ➞ 4
+//
+// numberSyllables("on-o-mat-o-poe-ia") ➞ 6
+
+
+
+// Create a function that takes an array of numbers. Return the largest number in the array.
+
+function findLargestNum(arr) {
+    return Math.max(...arr)
+}
+//
+// Examples
+// findLargestNum([4, 5, 1, 3]) ➞ 5
+//
+// findLargestNum([300, 200, 600, 150]) ➞ 600
+//
+// findLargestNum([1000, 1001, 857, 1]) ➞ 1001
+
+// Write a function that checks if two numbers are:
+//     Write a function that checks if two numbers are:
+//
+//     Smaller than 0
+//     Greater than 0
+//     Exactly 0
+
+function both(n1, n2) {
+    return (n1===0 && n2===0 || n1*n2>0)
+}
+
+// Examples
+// both(6, 2) ➞ true
+//
+// both(0, 0) ➞ true
+//
+// both(-1, 2) ➞ false
+//
+// both(0, 2) ➞ false
