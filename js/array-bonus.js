@@ -13,8 +13,12 @@ var fruits = ["apple", "banana", "orange", "apple", "pineapple"];
 
 // allIndexesOf(fruits, "pineapple") should return [4]
 
-function allIndexesOf() {
-
+function allIndexesOf(array,value) {
+    if (array.includes(value)){
+        return array.indexOf(value);
+    }else{
+        return [];
+    }
 }
 
 // Define a function named removeAll(array, value) that takes in two arguments. The first argument should be an array and the second argument should be a value you wish to remove
@@ -31,7 +35,10 @@ function allIndexesOf() {
 // removeAll(bugs, "roach") should return the original array b/c "roach" has no occurrances.
 
 
+function removeAll(array, value) {
+    return
 
+}
 
 
 
