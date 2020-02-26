@@ -68,3 +68,11 @@ function countWords(str){
 
 
 
+
+
+//Write a function named 'double' that accepts a number and returns the number squared.
+//Write a function named remove3s that accepts and array of numbers and returns an array with all of the same numbers except for 3
+//Write a function named sumAll that returns the sum of all numbers in an array
+//write a function named countEvens that accepts an array of nums and returns the number of even numbers in the array.
+//write a function called stringLength that returns the length of a string, if the input is not a string, return false;
+// Create a function that takes a string and returns the word count. The string will be a sentence.
